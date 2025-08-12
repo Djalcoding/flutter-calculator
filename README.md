@@ -7,3 +7,9 @@
 - Being a calculator
 - Being a calculator that implements bitwise operators, modulo and floor division
 - Being a calc (short for calculator)
+## Installation
+1. Grab the last version from the release section
+2. Decompress the .zip or .rar file
+3. Run the executable.
+## Note
+- only windows for now :(
