@@ -235,8 +235,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return Expanded(
       child: ElevatedButton(
         onPressed: onPressed,
-        child: Text(key, style: TextStyle(fontSize: 20.0), maxLines: 1),
+        child: Center(
+          child: Text(key, style: TextStyle(fontSize: 20.0), maxLines: 1),
+        ),
+
         style: ElevatedButton.styleFrom(
+          padding: EdgeInsets.zero,
           backgroundColor: background_color,
           foregroundColor: foreground_color,
           shadowColor: shadow_color,
@@ -409,7 +413,12 @@ class _MyHomePageState extends State<MyHomePage> {
       padding: const EdgeInsets.all(18.0),
       child: Container(
         child: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.only(
+            left: 10.0,
+            right: 10.0,
+            top: 1.0,
+            bottom: 0.0,
+          ),
           child: Text(
             calculatorField,
             style: TextStyle(fontSize: 50.0, color: Colors.white),
