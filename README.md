@@ -12,4 +12,4 @@
 2. Decompress the .zip or .rar file
 3. Run the executable.
 ## Note
-- only windows for now :(
+- only windows and android for now :(
